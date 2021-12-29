@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>HTML Responsive</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+<!-- NAVIGATION BAR -->
+
+    <nav class="navbar">
+      <div class="brand">
+        <img src="images/toggle.png" class="logo" width="30px" height="30px">
+        <p>Stella Studio</p>
+      </div>
+      <div class="list">
+        <ul class="main-menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- Menu Image/ Icon -->
+
+      <div class="menu">
+        <img src="images/menubar.png" alt="Sidebar menu image" width="35px">
+      </div>
+    </nav>
+
+<!-- BIG HEADING -->
+    <div class="land">
+      <p class="heading">Enabling brands to flow with change in order to grow <img src="images/rocket.png" alt="Rocket" class="rocket"></p>
+
+      <div class="landb">
+        <div class="btns">
+          <a href="#" class="btn btn-black">Get Started</a>
+          <a href="#" class="btn btn-grey">Get Quote</a>
+        </div>
+
+        <!-- Sub Heads -->
+        <div class="textp">
+          <p>/ WEB DESIGN </p>
+          <p> / BRANDING </p>
+          <p>/ MARKETING</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MIDDLE SECTION -->
+
+  <div class="middle">
+
+    <!-- Left Section -->
+
+    <div class="left flex-item">
+      <div class="user">
+        <img src="images/human.jpg" alt="Stella Image">
+        <div class="user-info">
+          <h5>Stella Johnson </h5>
+          <small>Founder</small>
+        </div>
+      </div>
+      <img class="stairs" src="images/staircase.jpg" alt="Spiral Staircase" width="500px" height="625px">
+    </div>
+
+    <!-- Right Section -->
+
+    <div class="right flex-item">
+      <h1>We propel results-driven growth</h1>
+      <p>At the start of every project, we customize a detailed project plan together with you to set expectations, ensure alignment, and define key milestones and deliverables. Experience tells us the best solutions are the ones co-ideated with
+        clients. We incorporate your ideas with our broad level of expertise to create memorable experiences for your brands & products.</p>
+      <a href="#" class="btn btn-white">View Detail</a>
+    </div>
+
+  </div>
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+    document.querySelector('.menu').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+  </script>
+
+</body>
+
+</html>
